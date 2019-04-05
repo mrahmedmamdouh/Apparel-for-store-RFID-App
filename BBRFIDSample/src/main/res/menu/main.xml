@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.kr.bluebird.rfid.app.bbrfiddemo.MainActivity">
+
+
+    <item
+        android:id="@+id/action_connected"
+        android:icon="@drawable/connected"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/connected_str"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="@string/home_str"
+        android:visible="true" />
+
+
+
+
+
+</menu>

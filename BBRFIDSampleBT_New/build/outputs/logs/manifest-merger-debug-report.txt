@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:13:22-78
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:14:5-61
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:14:19-59
+uses-feature#android.hardware.usb.accessory
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:15:19-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:18:22-77
+application
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:22:5-54:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:25:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:27:9-43
+	android:largeHeap
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:26:9-33
+	android:icon
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:24:9-45
+	android:allowBackup
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:28:9-40
+activity#co.kr.bluebird.newrfid.app.bbrfidbtdemo.MainActivity
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:30:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:35:13-45
+	android:launchMode
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:34:13-44
+	android:configChanges
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:32:13-59
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:31:13-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:39:27-74
+service#co.kr.bluebird.newrfid.app.bbrfidbtdemo.stopwatch.StopwatchService
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:44:9-102
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:44:18-99
+receiver#co.kr.bluebird.newrfid.app.bbrfidbtdemo.receiver.RFIDReceiver
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:46:9-52:20
+	android:exported
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:46:19-95
+intent-filter#action:name:kr.co.bluebird.android.sled.action.SLED_ATTACHED+action:name:kr.co.bluebird.android.sled.action.SLED_DETACHED
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:48:13-51:29
+action#kr.co.bluebird.android.sled.action.SLED_ATTACHED
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:49:17-91
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:49:25-88
+action#kr.co.bluebird.android.sled.action.SLED_DETACHED
+ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:50:17-91
+	android:name
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml:50:25-88
+uses-sdk
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Desktop\BluebirdRFID\BluebirdRFID\BBRFIDSampleBT_New\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\35b04b9e0398bd650de46f3923940c34\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\1ca985779840c964682db8dfaf545ac1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b1f2fe858af4e617263fcc84e8a57656\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3b9bcd5aadc9e7956d60ad85ce2da218\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\e81f090236c9b7adf8140ab950821d12\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\Ahmed\.gradle\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\d8acbf1024e13fc930a14f5264f922a1\AndroidManifest.xml:27:13-51

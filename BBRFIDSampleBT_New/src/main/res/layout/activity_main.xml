@@ -1,0 +1,467 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="co.kr.bluebird.newrfid.app.bbrfidbtdemo.MainActivity" >
+
+    <android.support.v4.widget.DrawerLayout
+	    android:id="@+id/drawer_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+        <FrameLayout 
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/ui_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/enablesettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enable Settings"
+                    android:visibility="invisible"/>
+                <Button
+                    android:id="@+id/disablesettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disable Settings"
+                    android:visibility="invisible"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/connect_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+
+                            android:src="@drawable/ic_connectivity"></ImageButton>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_connect_str"
+
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/rfacc_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_rf_access"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="WRITING"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/inv_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_inven"
+                            ></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_inv_str"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+
+                    </FrameLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="7dip"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/sdfunc_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_sd_func"
+                            android:visibility="invisible">
+
+                        </ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_sd_func_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/rfsel_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_rf_sel"
+                            android:visibility="invisible"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_rf_sel_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/rfconf_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_rf_config"></ImageButton>
+
+                        <TextView
+                            android:id="@+id/rfconf_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="SETTINGS"
+                            android:visibility="invisible"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/rapid_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_rapid"
+                            android:visibility="invisible"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_rapid_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="7dip"
+                    android:orientation="horizontal">
+
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/bar_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_barcode"
+                            android:visibility="invisible"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_bar_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/bar_sb_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_sb_barcode"
+                            android:visibility="invisible"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_bar_sb_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="7dip"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/bat_bt"
+                            android:layout_width="179dp"
+                            android:layout_height="125dp"
+                            android:adjustViewBounds="true"
+                            android:background="#33bdff"
+                            android:padding="50dp"
+
+                            android:scaleType="center"
+                            android:src="@drawable/logoor"
+                            android:visibility="invisible">
+
+                        </ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_bat_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_marginRight="3dip"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/info_bt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#33bdff"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_info"
+                            android:visibility="invisible"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:clickable="false"
+                            android:text="@string/m_info_str"
+                            android:textStyle="bold"
+                            android:visibility="invisible">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/ci_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:layout_weight="1"
+                        android:scaleType="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="178dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="106dp"
+                        android:src="@drawable/upload" />
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="match_parent"
+                        android:layout_height="17dp"
+                         />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="99dp"
+                        android:src="@drawable/logoor"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+                <!--
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:textColor="#0000FF"
+                                    android:text="@string/copy_str"
+                                    android:textStyle="bold"
+                                    android:textSize="12sp"/>
+                -->
+            </LinearLayout>
+
+        </FrameLayout>
+            
+        <!-- 
+        android:divider="@android:color/transparent"
+         -->
+        <ListView android:id="@+id/left_drawer"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fadeScrollbars="false"
+            android:choiceMode="singleChoice"
+            android:divider="#555555"
+            android:dividerHeight="1dp"
+            android:background="#207d8b" />
+    
+    </android.support.v4.widget.DrawerLayout>
+    
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Thu Apr 04 11:22:29 EET 2019
+base.0=C\:\\Users\\Ahmed\\El Shorbagy 05032019\\BluebirdRFID\\BBRFIDSample\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex
