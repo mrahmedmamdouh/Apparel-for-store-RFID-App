@@ -19,7 +19,7 @@ public class WDxDBHelper extends SQLiteOpenHelper {
     public static final String CREATE_TBL_PutAwayCount = "Create Table PutAwayCount ( items text );";
     public static final String CREATE_TBL_ReceivingCount = "Create Table ReceivingCount ( items text );";
     public static final String CREATE_TBL_TransactionHeader = "Create Table TransactionHeader ( tblRFIDTransType integer, tblUser integer, tblStore integer, RFID_CreationDate text, barcode text );";
-    public static final String CREATE_TBL_TransactionDetails = "Create Table TransactionDetails ( items text, NewIserial integer );";
+    public static final String CREATE_TBL_TransactionDetails = "Create Table TransactionDetails ( EBC text, tblRFidTransHeader integer );";
     //public static final String CREATE_TBL_Assets = "Create Table Assets ( AssetID integer Primary Key  ,AssetCode  text,SerialNo  text,Class  text,CompanyCode  text,AssetDesc  text,PlantCode  text,Location  text,BuildingCode  text,FloorCode  text,RoomCode  text,StatusDesc  text,IsScanned  Integer Default 0 ,IsAuditClosed  integer Default 0 ,Updated  integer Default 0 ,NBV integer);";
    // public static final String CREATE_TBL_Building = "Create Table Building  ( BuildingID  integer Primary Key ,BuildingCode text,BuildingName text,PlantCode text,Barcode text);";
    // public static final String CREATE_TBL_Class= "Create Table Class ( ClassID integer Primary Key,ClassCode text,ClassDesc text);";

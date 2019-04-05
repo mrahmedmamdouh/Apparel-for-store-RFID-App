@@ -38,7 +38,7 @@ public class Constants {
     static final String CREATE_TB3="CREATE TABLE TransactionHeader(ROW_ID INTEGER PRIMARY KEY AUTOINCREMENT,"
             + "items TEXT NOT NULL," + "tblRFIDTransType INTEGER,"+" tblUser INTEGER,"+" tblStore INTEGER,"+" RFID_CreationDate TEXT NOT NULL,"+" barcode TEXT NOT NULL);";
     static final String CREATE_TB4="CREATE TABLE TransactionDetails(ROW_ID INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + "items TEXT NOT NULL,"+"NewIserial INTEGER);";
+            + "EBC TEXT NOT NULL,"+"tblRFidTransHeader INTEGER);";
     static final String DROP_TB="DROP TABLE IF EXISTS "+TB_NAME;
     static final String DROP_TB1="DROP TABLE IF EXISTS "+TB_NAME1;
     static final String DROP_TB2="DROP TABLE IF EXISTS "+TB_NAME2;

@@ -75,7 +75,7 @@ public class Login extends Activity implements fetchData.download_complete {
                     RequestParams params = new RequestParams(param);
 
 
-                    client.post("http://41.65.223.218:8888/api/RFIDAuthUser", params, new AsyncHttpResponseHandler() {
+                    client.post("http://41.65.223.218:8888/api/RFIDAuthUser?winUser=wdx.user&winPassword=123456&StoreCode=101", params, new AsyncHttpResponseHandler() {
                         @Override
                         public void onSuccess(String data) {
 

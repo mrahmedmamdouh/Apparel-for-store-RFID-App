@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Apparel-for-store-RFID.iml" filepath="$PROJECT_DIR$/Apparel-for-store-RFID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apparel-for-store-RFID-App.iml" filepath="$PROJECT_DIR$/Apparel-for-store-RFID-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBRFIDSample/BBRFIDSample.iml" filepath="$PROJECT_DIR$/BBRFIDSample/BBRFIDSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBRFIDSampleBT/BBRFIDSampleBT.iml" filepath="$PROJECT_DIR$/BBRFIDSampleBT/BBRFIDSampleBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBRFIDSampleBT_New/BBRFIDSampleBT_New.iml" filepath="$PROJECT_DIR$/BBRFIDSampleBT_New/BBRFIDSampleBT_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluebirdsled/bluebirdsled.iml" filepath="$PROJECT_DIR$/bluebirdsled/bluebirdsled.iml" />
     </modules>
   </component>
 </project>
