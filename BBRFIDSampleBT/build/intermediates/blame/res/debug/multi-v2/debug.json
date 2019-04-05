@@ -1,6 +1,476 @@
 {
     "logs": [
         {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "312",
+                        "endColumns": "57",
+                        "endOffsets": "365"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
@@ -20,6 +490,21 @@
                         "endLines": "4",
                         "endColumns": "12",
                         "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     }
                 }
             ]
@@ -49,23 +534,736 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "312",
-                        "endColumns": "57",
-                        "endOffsets": "365"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     }
                 }
             ]
@@ -73,6 +1271,42 @@
         {
             "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,13,56,88,125,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,187,245,319,617,3523,5588,7348,7725,7795,7863,7935,8005,8066,8140,8213,8274,8335,8397,8461,8523,8584,8652,8752,8812,8878,8951,9020,9077,9129,9191,9263,9339,9374,9409,9459,9520,9577,9611,9646,9681,9751,9822,9939,10140,10250,10451,10580,10652",
+                        "endLines": "2,3,4,5,12,55,87,124,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,170,171,175,176,177,178",
+                        "endColumns": "68,62,57,73,24,24,24,24,24,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "119,182,240,314,612,3518,5583,7343,7720,7790,7858,7930,8000,8061,8135,8208,8269,8330,8392,8456,8518,8579,8647,8747,8807,8873,8946,9015,9072,9124,9186,9258,9334,9369,9404,9454,9515,9572,9606,9641,9676,9746,9817,9934,10135,10245,10446,10575,10647,10714"
+                    },
+                    "to": {
+                        "startLines": "145,146,149,151,153,259,302,334,371,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,406,407,408,409,410,411,412,413,414,415,417,573,604,605,610,613,618,620,621",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4528,4597,4820,4951,5065,11182,14088,16153,17913,18402,18472,18540,18612,18682,18743,18817,18890,18951,19012,19074,19138,19200,19261,19329,19429,19489,19555,19628,19697,19754,19806,20080,20152,20228,20263,20298,20348,20409,20466,20500,20535,20630,29771,32117,32234,32501,32794,33061,33257,33329",
+                        "endLines": "145,146,149,151,159,301,333,370,377,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,406,407,408,409,410,411,412,413,414,415,417,573,604,608,610,616,618,620,621",
+                        "endColumns": "68,62,57,73,24,24,24,24,24,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "4592,4655,4873,5020,5358,14083,16148,17908,18285,18467,18535,18607,18677,18738,18812,18885,18946,19007,19069,19133,19195,19256,19324,19424,19484,19550,19623,19692,19749,19801,19863,20147,20223,20258,20293,20343,20404,20461,20495,20530,20565,20695,29837,32229,32430,32606,32990,33185,33324,33391"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "147,148,150,402,403,404,405,416,609,611,612,617,619",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4660,4749,4878,19868,19921,19974,20027,20570,32435,32611,32733,32995,33190",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "4744,4815,4946,19916,19969,20022,20075,20625,32496,32728,32789,33056,33252"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\src\\main\\res\\values\\dimens.xml",
                     "from": {
@@ -83,11 +1317,11 @@
                         "endOffsets": "144,200"
                     },
                     "to": {
-                        "startLines": "145,146",
+                        "startLines": "378,379",
                         "startColumns": "4,4",
-                        "startOffsets": "4507,4564",
+                        "startOffsets": "18290,18347",
                         "endColumns": "56,54",
-                        "endOffsets": "4559,4614"
+                        "endOffsets": "18342,18397"
                     }
                 },
                 {
@@ -101,12 +1335,12 @@
                         "endOffsets": "14155,14795,15223,15924,14644,13694,13447,16250,12363,11982,16092,13961,13576,14334,220,112,2592,4256,9997,4185,10861,2679,6365,11829,9933,6122,6615,6731,10789,1322,1230,9883,9829,7441,6302,6674,6841,5749,5695,10547,6047,7376,6246,3619,10327,10270,3876,4876,4455,7782,7313,8586,8647,9439,8377,8236,9083,6904,4725,5010,8957,1559,8044,2053,7504,5142,4378,5411,5643,3248,9217,5280,8170,4599,5533,1806,7100,7910,166,6778,3978,10495,1055,641,688,278,740,594,545,438,386,493,333,9598,922,11778,2123,7165,9541,10912,8822,7569,5999,792,840,9780,5878,5812,7642,3114,6558,3465,3321,7236,2201,2281,10447,3823,2445,2362,2518,6424,2978,3726,2921,2792,2739,2854,3521,3674,4808,7712,7038,8708,8450,8525,8302,3043,8890,4668,4947,1476,1396,7977,1974,1889,5081,4317,6968,5350,5586,3181,9150,5216,8105,4527,5472,1721,1639,7846,10393,3400,1121,9014,3927,10098,10156,10047,9490,4074,6487,4123,10209,9720,9656,3574,4023,3773,9368,9294,10723,10633,11425,11736,6190,5935,1004,10967,883"
                     },
                     "to": {
-                        "startLines": "2,8,13,25,42,54,58,94,99,109,114,120,129,133,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321",
+                        "startLines": "2,8,13,25,42,54,58,94,99,109,114,120,129,133,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,241,381,791,1454,1750,1858,2900,3048,3413,3559,3715,3967,4086,4619,4672,4724,4791,4859,4920,4979,5044,5124,5180,5228,5277,5345,5395,5449,5508,5597,5699,5752,5794,5856,5905,5961,6021,6068,6113,6162,6203,6263,6310,6352,6408,6462,6508,6573,6643,6706,6776,6830,6884,6948,7016,7075,7137,7193,7243,7299,7363,7439,7503,7579,7639,7693,7747,7801,7851,7911,7971,8028,8086,8151,8205,8283,8338,8399,8452,8496,8540,8585,8635,8681,8727,8782,8833,8881,8932,8983,9035,9089,9143,9193,9231,9270,9337,9399,9443,9487,9594,9656,9713,9762,9809,9866,9925,9981,10047,10111,10175,10227,10293,10357,10428,10501,10548,10591,10667,10741,10807,10859,10909,10958,11018,11064,11117,11172,11221,11269,11349,11412,11475,11529,11595,11663,11722,11780,11841,11903,11971,12044,12115,12179,12261,12341,12405,12459,12516,12579,12629,12689,12749,12816,12874,12939,12993,13068,13141,13202,13261,13333,13396,13446,13490,13540,13597,13646,13690,13738,13794,13842,13894,13953,14004,14050,14094,14138,14205,14275,14358,14437,14892,15200,15261,15311,15392,15444",
-                        "endLines": "7,12,24,41,53,57,93,98,108,113,119,128,132,138,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321",
+                        "startOffsets": "55,241,381,791,1454,1750,1858,2900,3048,3413,3559,3715,3967,4086,20700,20753,20805,20872,20940,21001,21060,21125,21205,21261,21309,21358,21426,21476,21530,21589,21678,21780,21833,21875,21937,21986,22042,22102,22149,22194,22243,22284,22344,22391,22433,22489,22543,22589,22654,22724,22787,22857,22911,22965,23029,23097,23156,23218,23274,23324,23380,23444,23520,23584,23660,23720,23774,23828,23882,23932,23992,24052,24109,24167,24232,24286,24364,24419,24480,24533,24577,24621,24666,24716,24762,24808,24863,24914,24962,25013,25064,25116,25170,25224,25274,25312,25351,25418,25480,25524,25568,25675,25737,25794,25843,25890,25947,26006,26062,26128,26192,26256,26308,26374,26438,26509,26582,26629,26672,26748,26822,26888,26940,26990,27039,27099,27145,27198,27253,27302,27350,27430,27493,27556,27610,27676,27744,27803,27861,27922,27984,28052,28125,28196,28260,28342,28422,28486,28540,28597,28660,28710,28770,28830,28897,28955,29020,29074,29149,29222,29283,29342,29414,29477,29527,29571,29621,29678,29727,29842,29890,29946,29994,30046,30105,30156,30202,30246,30290,30357,30427,30510,30589,31044,31352,31413,31463,31544,31596",
+                        "endLines": "7,12,24,41,53,57,93,98,108,113,119,128,132,138,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593",
                         "endColumns": "19,19,19,19,19,19,19,19,19,19,19,19,19,19,52,51,66,67,60,58,64,79,55,47,48,67,49,53,58,88,101,52,41,61,48,55,59,46,44,48,40,59,46,41,55,53,45,64,69,62,69,53,53,63,67,58,61,55,49,55,63,75,63,75,59,53,53,53,49,59,59,56,57,64,53,77,54,60,52,43,43,44,49,45,45,54,50,47,50,50,51,53,53,49,37,38,66,61,43,43,106,61,56,48,46,56,58,55,65,63,63,51,65,63,70,72,46,42,75,73,65,51,49,48,59,45,52,54,48,47,79,62,62,53,65,67,58,57,60,61,67,72,70,63,81,79,63,53,56,62,49,59,59,66,57,64,53,74,72,60,58,71,62,49,43,49,56,48,43,47,55,47,51,58,50,45,43,43,66,69,82,78,454,307,60,49,80,51,39",
-                        "endOffsets": "236,376,786,1449,1745,1853,2895,3043,3408,3554,3710,3962,4081,4252,4667,4719,4786,4854,4915,4974,5039,5119,5175,5223,5272,5340,5390,5444,5503,5592,5694,5747,5789,5851,5900,5956,6016,6063,6108,6157,6198,6258,6305,6347,6403,6457,6503,6568,6638,6701,6771,6825,6879,6943,7011,7070,7132,7188,7238,7294,7358,7434,7498,7574,7634,7688,7742,7796,7846,7906,7966,8023,8081,8146,8200,8278,8333,8394,8447,8491,8535,8580,8630,8676,8722,8777,8828,8876,8927,8978,9030,9084,9138,9188,9226,9265,9332,9394,9438,9482,9589,9651,9708,9757,9804,9861,9920,9976,10042,10106,10170,10222,10288,10352,10423,10496,10543,10586,10662,10736,10802,10854,10904,10953,11013,11059,11112,11167,11216,11264,11344,11407,11470,11524,11590,11658,11717,11775,11836,11898,11966,12039,12110,12174,12256,12336,12400,12454,12511,12574,12624,12684,12744,12811,12869,12934,12988,13063,13136,13197,13256,13328,13391,13441,13485,13535,13592,13641,13685,13733,13789,13837,13889,13948,13999,14045,14089,14133,14200,14270,14353,14432,14887,15195,15256,15306,15387,15439,15479"
+                        "endOffsets": "236,376,786,1449,1745,1853,2895,3043,3408,3554,3710,3962,4081,4252,20748,20800,20867,20935,20996,21055,21120,21200,21256,21304,21353,21421,21471,21525,21584,21673,21775,21828,21870,21932,21981,22037,22097,22144,22189,22238,22279,22339,22386,22428,22484,22538,22584,22649,22719,22782,22852,22906,22960,23024,23092,23151,23213,23269,23319,23375,23439,23515,23579,23655,23715,23769,23823,23877,23927,23987,24047,24104,24162,24227,24281,24359,24414,24475,24528,24572,24616,24661,24711,24757,24803,24858,24909,24957,25008,25059,25111,25165,25219,25269,25307,25346,25413,25475,25519,25563,25670,25732,25789,25838,25885,25942,26001,26057,26123,26187,26251,26303,26369,26433,26504,26577,26624,26667,26743,26817,26883,26935,26985,27034,27094,27140,27193,27248,27297,27345,27425,27488,27551,27605,27671,27739,27798,27856,27917,27979,28047,28120,28191,28255,28337,28417,28481,28535,28592,28655,28705,28765,28825,28892,28950,29015,29069,29144,29217,29278,29337,29409,29472,29522,29566,29616,29673,29722,29766,29885,29941,29989,30041,30100,30151,30197,30241,30285,30352,30422,30505,30584,31039,31347,31408,31458,31539,31591,31631"
                     }
                 },
                 {
@@ -119,11 +1353,30 @@
                         "endOffsets": "266,309,220,134,173,92"
                     },
                     "to": {
-                        "startLines": "139,140,141,142,143,144",
+                        "startLines": "140,141,142,143,144,152",
                         "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "4257,4302,4344,4388,4429,4467",
+                        "startOffsets": "4318,4363,4405,4449,4490,5025",
                         "endColumns": "44,41,43,40,37,39",
-                        "endOffsets": "4297,4339,4383,4424,4462,4502"
+                        "endOffsets": "4358,4400,4444,4485,4523,5060"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\coordinatorlayout-28.0.0.aar\\e5e89fd2b6d3e77f57aa7afd86c5bdb2\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,13,102",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,116,724,5935",
+                        "endLines": "2,12,101,104",
+                        "endColumns": "60,24,24,12",
+                        "endOffsets": "111,719,5930,6075"
+                    },
+                    "to": {
+                        "startLines": "139,160,170,622",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4257,5363,5971,33396",
+                        "endLines": "139,169,258,624",
+                        "endColumns": "60,24,24,12",
+                        "endOffsets": "4313,5966,11177,33536"
                     }
                 },
                 {
@@ -137,12 +1390,162 @@
                         "endOffsets": "484,712"
                     },
                     "to": {
-                        "startLines": "322,329",
+                        "startLines": "594,601",
                         "startColumns": "4,4",
-                        "startOffsets": "15484,15775",
-                        "endLines": "328,331",
+                        "startOffsets": "31636,31927",
+                        "endLines": "600,603",
                         "endColumns": "12,12",
-                        "endOffsets": "15770,15960"
+                        "endOffsets": "31922,32112"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-et\\values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSampleBT\\build\\intermediates\\res\\merged\\debug\\values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     }
                 }
             ]

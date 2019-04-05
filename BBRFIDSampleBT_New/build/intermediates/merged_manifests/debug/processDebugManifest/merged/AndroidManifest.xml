@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -24,6 +24,7 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
@@ -53,10 +54,6 @@
                 <action android:name="kr.co.bluebird.android.sled.action.SLED_DETACHED" />
             </intent-filter>
         </receiver>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="25.4.0" />
     </application>
 
 </manifest>

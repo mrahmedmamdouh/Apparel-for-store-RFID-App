@@ -1,23 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_connectivity_frag.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\connectivity_frag.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cyclecount.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\cyclecount.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_settings.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_rapid_frag.xml.flat",
@@ -32,16 +20,252 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\raw\\beeptwo.mp3"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_vertical_progress.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\vertical_progress.xml"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_inven.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_inven.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_layout_border.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\layout_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cyclecount.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\cyclecount.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_encoding.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\encoding.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_transactions.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\transactions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_connectivity.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_connectivity.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_encoding.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\encoding.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_barcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_battery.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_battery.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_barcode_frag.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\barcode_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_replenishment.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\replenishment.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_putawaytobackroom.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\putawaytobackroom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_receivingtostore.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\receivingtostore.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_info_frag.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\info_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sd_func.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_sd_func.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rf_sel.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_rf_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\raw_beepthree.mp3.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\raw\\beepthree.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_battery_progress.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\battery_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_encoding.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\encoding.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_battery.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_battery.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rf_config.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_rf_config.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_putaway.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\putaway.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_cyclecount.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\cyclecount.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_sd_frag.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\sd_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_connected.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\connected.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sd_func.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_sd_func.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_replenishment.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\replenishment.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_connectivity_frag.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\connectivity_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cyclecount.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\cyclecount.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_receivingtobackroom.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\receivingtobackroom.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_vertical_progress.xml.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\vertical_progress.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_rf_config_frag.xml.flat",
@@ -50,6 +274,14 @@
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_inventory_frag.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\inventory_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_receiving.png.flat",
@@ -64,28 +296,24 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\battery_frag.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_inven.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_inven.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_layout_border.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\layout_border.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_rf_selection_frag.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\rf_selection_frag.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cyclecount.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\cyclecount.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_inven.png.flat",
@@ -96,24 +324,16 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\connectivity.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_connectivity.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\connectivity.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_logoor.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\logoor.png"
     },
     {
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_connectivity.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\connectivity.png"
+    },
+    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_picked.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\picked.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_encoding.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\encoding.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_transactions.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\transactions.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_connectivity.png.flat",
@@ -128,28 +348,12 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\connectivity.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_connectivity.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_connectivity.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_encoding.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\encoding.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rf_access.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_rf_access.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_barcode.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_barcode.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_fragment_repl.xml.flat",
@@ -168,40 +372,20 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_rf_sel.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_battery.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_battery.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_table_rows.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\table_rows.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_barcode_frag.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\barcode_frag.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_replenishment.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\replenishment.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_rf_access_frag.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\rf_access_frag.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_putawaytobackroom.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\putawaytobackroom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_info.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_receivingtostore.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\receivingtostore.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rapid.png.flat",
@@ -212,48 +396,16 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\brinventory_frag.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_info_frag.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\info_frag.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sd_func.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_sd_func.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\home.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rf_sel.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_rf_sel.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\raw_beepthree.mp3.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\raw\\beepthree.mp3"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_transaction_listview.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\transaction_listview.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_battery_progress.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\battery_progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_battery.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_battery.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_encoding.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\encoding.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_transaction.png.flat",
@@ -268,10 +420,6 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\putawaytostore_frag.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_send_data.xml.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\send_data.xml"
     },
@@ -280,28 +428,24 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\sync.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rf_config.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\ic_rf_config.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_putaway.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\putaway.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_info.png.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_info.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_cyclecount.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\cyclecount.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_replenishment.png.flat",
+        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\replenishment.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\raw_beep.mp3.flat",
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\raw\\beep.mp3"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_replenishment.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-xhdpi\\replenishment.png"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_receiving.xml.flat",
@@ -312,12 +456,8 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_rf_config.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_sd_frag.xml.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\layout\\sd_frag.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_connected.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\connected.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_barcode.png.flat",
@@ -332,11 +472,11 @@
         "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\logobg.gif"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sd_func.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable-hdpi\\ic_sd_func.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\c2b811890a901f182d60d99d1f90c834\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable_replenishment.png.flat",
-        "source": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\src\\main\\res\\drawable\\replenishment.png"
+        "merged": "C:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Ahmed\\.gradle\\gradle-4.1\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e32e3e9593228ab4bbe1f30cb0918aeb\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     }
 ]
