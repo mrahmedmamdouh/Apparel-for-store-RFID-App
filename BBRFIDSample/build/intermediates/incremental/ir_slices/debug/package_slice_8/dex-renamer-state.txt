@@ -1,1 +1,4 @@
-#Thu Apr 04 09:05:40 EET 2019
+#Sat Apr 06 12:21:40 EET 2019
+base.0=C\:\\Users\\Ahmed\\Apparel-for-store-RFID-App\\BBRFIDSample\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

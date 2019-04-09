@@ -90,6 +90,7 @@ public class BRReplFragment extends Fragment implements fetchData.download_compl
     private TagListAdapter mAdapter;
     public String transactionId;
 
+    int x;
     private ListView mRfidList;
     String date;
     private TextView mBatteryText;
@@ -173,7 +174,7 @@ public class BRReplFragment extends Fragment implements fetchData.download_compl
 
     private FileManager mFileManager;
 
-    private String mLocateTag;
+    public String mLocateTag;
 
     private String mLocateEPC;
 
@@ -243,7 +244,7 @@ public String idi;
         fetchData download_data = new fetchData(this);
         download_data.download_data_from_link("http://"+ urlNumber+":"+ portNumber+"/api/Data/Replan");
 
-
+        Log.d(TAG, "onCreateView: " + urlNumber + portNumber);
         mLocateLayout = (LinearLayout)v.findViewById(R.id.tag_locate_container);
 
         mListLayout = (LinearLayout)v.findViewById(R.id.locate_container);
@@ -278,8 +279,11 @@ public String idi;
 
 
             repl_elements i = (repl_elements) list.getItemAtPosition(position);
+
+            mLocateTag= i.items;
+
             SharedPreferences pref = getActivity().getSharedPreferences("transactionId", Context.MODE_PRIVATE);
-            transactionId = "134";
+            transactionId = "1";
             AsyncHttpClient client = new AsyncHttpClient();
             HashMap<String, String> param = new HashMap<String, String>();
             param.put("id", transactionId);
@@ -309,15 +313,8 @@ public String idi;
             AlertDialog.Builder alert = new AlertDialog.Builder(mContext);
             alert.setTitle(getString(R.string.locating_str));
             alert.setMessage(getString(R.string.want_tracking_str));
-
             alert.setPositiveButton(getString(R.string.yes_str), new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
-
-                    for(String x : jr ) {
-                        mLocateTag = x;
-
-                    mLocateEPC = mLocateTag;
-
 
                     SelectionCriterias s = new SelectionCriterias();
                     s.makeCriteria(SelectionCriterias.SCMemType.EPC, mLocateTag,
@@ -330,7 +327,7 @@ public String idi;
 
                     }
 
-            }});
+            });
             alert.setNegativeButton(getString(R.string.no_str) ,new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
                 }
@@ -420,6 +417,8 @@ public String idi;
                 add.color = obj.getString("color");
                 add.size = obj.getString("size");
                 add._id = obj.getString("_id");
+                add.items = obj.getString("items");
+
 
                 elements.add(add);
                 Log.d(TAG, "get_data: " + elements);
@@ -575,7 +574,7 @@ public String idi;
             if (D) Log.d(TAG, "stopwatchListener");
 
             int id = v.getId();
-            int ret;
+            int ret = 0;
             switch (id) {
                 case R.id.back_button:
                     ret = mReader.RF_StopInventory();
@@ -599,7 +598,16 @@ public String idi;
                         //openFileEPC();
                         if (mLocate) {
                             //mCurrentPower = mReader.RF_GetRadioPowerState();
-                            ret = mReader.RF_PerformInventoryForLocating(mLocateEPC);
+                            Iterator<String> iterator = jr.iterator();
+                            while (iterator.hasNext()) {
+                                ret = mReader.RF_PerformInventoryForLocating(iterator.next());
+                              int data = 0;
+                                if (mLocateValue == data){
+
+                                    iterator.next();
+                                }
+
+                            }
                         } else
                             ret = mReader.RF_PerformInventoryWithLocating(mIsTurbo, mMask, mIgnorePC);
 
@@ -922,7 +930,7 @@ public String idi;
     private void processLocateData(int data) {
         startLocateTimer();
         mLocateValue = data;
-        //mTagLocateProgress.setProgress(data);
+        mTagLocateProgress.setProgress(data);
         if (mSoundTask == null) {
             mSoundTask = new SoundTask();
             mSoundTask.execute();
