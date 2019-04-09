@@ -403,9 +403,10 @@ public class TransRFIDFragment extends Fragment {
                         @Override
                         public void onSuccess(String id) {
                             if(id.equals("true")){
-                            Toast.makeText(mContext, "DATA HAS BEEN SENT SUCCESSFULLY ", Toast.LENGTH_LONG).show();}
+                            Toast.makeText(mContext, "DATA HAS BEEN SENT SUCCESSFULLY ", Toast.LENGTH_LONG).show();
+                                db.delete("TransactionDetails","tblRFidTransHeader= ?", new String[]{_NewIserial});}
                             else if (id.equals("false")){ Toast.makeText(mContext, "DATA HAS NOT BEEN SENT .... PLEASE TRY AGAIN LATER ", Toast.LENGTH_LONG).show();}
-
+                            Log.d(TAG, "onSuccess: " + id);
                             super.onSuccess(id);
                         }
                         @Override

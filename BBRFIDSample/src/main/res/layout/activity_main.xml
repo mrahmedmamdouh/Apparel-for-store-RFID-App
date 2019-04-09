@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="@color/colorSplashText"
     tools:context="co.kr.bluebird.rfid.app.bbrfiddemo.MainActivity"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -50,7 +51,7 @@
                             android:id="@+id/connect_bt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
 
                             android:src="@drawable/connectivity"></ImageButton>
@@ -80,7 +81,7 @@
                             android:id="@+id/rfacc_bt"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
                             android:src="@drawable/encoding"></ImageButton>
 
@@ -117,7 +118,7 @@
                             android:id="@+id/rfCycleCount"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
                             android:src="@drawable/cyclecount"></ImageButton>
 
@@ -144,7 +145,7 @@
                             android:id="@+id/Receiving1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
                             android:src="@drawable/receiving"></ImageButton>
 
@@ -204,7 +205,7 @@
 
                     <FrameLayout
                         android:id="@+id/replenishment1"
-                        android:layout_width="95dp"
+                        android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="-10dip"
                         android:layout_weight="1">
@@ -213,7 +214,7 @@
                             android:id="@+id/Repl"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
                             android:src="@drawable/replenishment"
                             android:visibility="visible"></ImageButton>
@@ -244,7 +245,7 @@
                             android:id="@+id/putAway1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="center"
                             android:src="@drawable/putaway"
                             android:visibility="visible"></ImageButton>
@@ -280,7 +281,7 @@
                             android:id="@+id/transaction1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
+                            android:background="@color/blue"
                             android:scaleType="fitCenter"
                             android:src="@drawable/transaction"
                             android:visibility="visible"></ImageButton>

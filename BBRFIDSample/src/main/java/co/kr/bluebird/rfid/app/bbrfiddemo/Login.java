@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +31,7 @@ public class Login extends Activity implements fetchData.download_complete {
     Button b1,b2;
     EditText ed1,ed2;
     public static ArrayList<Transaction_objects> transElements = new ArrayList<>();
-    public String StoreCode, winUser, winPassword;
+    public String StoreCode, winUser, winPassword, accessToken, bearer;
     public ArrayList<Transaction_objects> jr = new ArrayList<Transaction_objects>();
     TextView tx1;
     int counter = 3;
@@ -51,9 +52,14 @@ public class Login extends Activity implements fetchData.download_complete {
         tx1.setVisibility(View.GONE);
 
 
+        AsyncHttpClient client = new AsyncHttpClient();
+
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
 
 
                 if(ed1.getText().toString().equals("admin") &&
@@ -62,18 +68,71 @@ public class Login extends Activity implements fetchData.download_complete {
                             "Redirecting...",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Login.this, SettingLoginScreen.class);
                     startActivity(intent);
+
+
                 } else if (ed1.getText().toString().length() != 0 &&
                         ed2.getText().toString().length() != 0) {
+
                     winPassword = ed2.getText().toString();
                     winUser = ed1.getText().toString();
-                    AsyncHttpClient client = new AsyncHttpClient();
-                    HashMap<String, String> param = new HashMap<String, String>();
-                    param.put("winUser", winUser);
-                    param.put("winPassword", winPassword);
-                    param.put("StoreCode", StoreCode);
-                    Log.d(TAG, "onItemClick: " + param);
-                    RequestParams params = new RequestParams(param);
+                    HashMap<String, String> param1 = new HashMap<String, String>();
+                    String username = "wdx.user";
+                    String password = "123456";
+                    String grant_type = "password";
+                    param1.put("username", winUser);
+                    param1.put("password", winPassword);
+                    param1.put("grant_type", grant_type);
+                    Log.d(TAG, "onItemClick: " + param1);
+                    RequestParams params1 = new RequestParams(param1);
 
+
+                    client.post("http://41.65.223.218:8888/token", params1, new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(String data) {
+
+                            Log.d(TAG, "onSuccess: " + data);
+                            try {
+                                JSONObject object = new JSONObject(data);
+                                Transaction_objects add = new Transaction_objects();
+                                accessToken = object.getString("access_token");
+                                bearer = object.getString("token_type");
+
+
+                                SharedPreferences pref = getApplication().getSharedPreferences("access_token", MODE_PRIVATE);
+                                SharedPreferences.Editor editor = pref.edit();
+                                editor.putString("access_token", accessToken);  // Saving string
+                                editor.apply();
+
+                                SharedPreferences pref1 = getApplication().getSharedPreferences("bearer", MODE_PRIVATE);
+                                SharedPreferences.Editor editor1 = pref1.edit();
+                                editor1.putString("bearer", bearer);  // Saving string
+                                editor1.apply();
+
+                                Log.d(TAG, "onSuccess: " + accessToken );
+
+                            } catch (JSONException e) {
+
+                                e.printStackTrace();
+                            }
+
+                        }
+                    });
+
+
+
+                    AsyncHttpClient client = new AsyncHttpClient();
+
+
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            //Do something after 100ms
+                            HashMap<String, String> param = new HashMap<String, String>();
+
+                            param.put("Authorization", bearer + " " +accessToken);
+                            Log.d(TAG, "onItemClick: " + param);
+                            RequestParams params = new RequestParams(param);
 
                     client.post("http://41.65.223.218:8888/api/RFIDAuthUser?winUser=wdx.user&winPassword=123456&StoreCode=101", params, new AsyncHttpResponseHandler() {
                         @Override
@@ -104,7 +163,8 @@ public class Login extends Activity implements fetchData.download_complete {
                             }
 
                         }
-                    });
+                    });}
+                    }, 2000);
                     Toast.makeText(getApplicationContext(),
                             "Redirecting...",Toast.LENGTH_SHORT).show();
 

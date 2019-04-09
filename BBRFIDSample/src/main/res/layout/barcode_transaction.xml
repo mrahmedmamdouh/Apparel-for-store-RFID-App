@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="co.kr.bluebird.newrfid.app.bbrfidbtdemo.MainActivity">
+
+        <ProgressBar
+            android:id="@+id/batt_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:progressDrawable="@drawable/battery_progress" />
+
+        <EditText
+            android:id="@+id/ed_barcode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            />
+
+        <ListView
+            android:id="@+id/access_list"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:visibility="invisible" />
+        <EditText
+            android:id="@+id/ed_donetags"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="20dp"
+            android:enabled="false"
+            android:visibility="visible"/>
+        <EditText
+            android:id="@+id/ed_epc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:enabled="true"
+            android:visibility="visible"/>
+        <EditText
+            android:id="@+id/ed_tid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:enabled="true"
+            android:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Send"
+            android:visibility="visible"/>
+
+
+
+
+    </LinearLayout></ScrollView>

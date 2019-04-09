@@ -4,7 +4,15 @@
     <string name="app_name">RFID For Apparel Store</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="booki">BookI</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="read_it_together">Read it together</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="email">Enter User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password.?</string>
     <string name="m_connect_str">CONNECTIVITY</string>
     <string name="m_sd_func_str">SD FUNCTION</string>
     <string name="m_rf_conf_str">RF CONFIG</string>

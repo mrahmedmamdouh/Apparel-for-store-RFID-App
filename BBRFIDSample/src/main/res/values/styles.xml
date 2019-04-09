@@ -11,6 +11,9 @@
             backward-compatibility can go here.
         -->
     </style>
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorProgressBar</item>
+    </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">

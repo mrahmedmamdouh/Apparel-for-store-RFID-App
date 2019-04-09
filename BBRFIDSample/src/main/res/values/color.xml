@@ -3,8 +3,33 @@
     <color name="start">#FF0000</color>
     <color name="center">#FF8000</color>
     <color name="end">#FFFF00</color>
-
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#B9BBBD</color>
+    <color name="colorBackground">#333C46</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#83898E</color>
     <color name="bat_start">#00FF00</color>
     <color name="bat_center">#FFFF00</color>
     <color name="bat_end">#FF0000</color>
+    <color name="red">#F15050</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9dbf35</color>
+    <color name="green">#48D26B</color>
+    <color name="green_dark">#36b957</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#37c4c6</color>
+    <color name="darkblue">#5A9CEE</color>
+    <color name="darkblue_dark">#417eca</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkviolet_dark">#683dd4</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#b33ec9</color>
+
+    <color name="white">#FFFFFF</color>
+
 </resources>

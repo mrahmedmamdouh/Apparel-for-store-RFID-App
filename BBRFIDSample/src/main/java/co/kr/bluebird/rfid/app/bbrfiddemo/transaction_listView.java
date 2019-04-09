@@ -25,6 +25,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 
 import org.apache.http.entity.StringEntity;
 import org.json.JSONArray;
@@ -35,9 +36,13 @@ import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 
 import co.kr.bluebird.rfid.app.bbrfiddemo.control.ListItem;
+import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.BRReplFragment;
+import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.ShipItemsFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.TransRFIDFragment;
 import co.kr.bluebird.sled.Reader;
 import co.kr.bluebird.sled.SDConsts;
@@ -50,11 +55,12 @@ public class transaction_listView extends Activity implements fetchData.download
     ArrayList<headerRow> data= new ArrayList<>();
     private Reader mReader;
     public headerRow headerrow;
-
+    public ArrayList jr;
     public FrameLayout TransList;
     public String urlNumber;
     public String portNumber;
     public String store_id;
+public RequestParams params;
     public static String x;
     public String RFID_CreationDate;
     public StringEntity entity1;
@@ -156,11 +162,9 @@ public class transaction_listView extends Activity implements fetchData.download
                 headerrow.RFID_CreationDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SS",
                         Locale.getDefault()).format(System.currentTimeMillis());
 
-                if (changeMode.getSelectedItem().toString().equals("BARCODE")) {
-                    headerrow.barcode = "true";
-                } else if (changeMode.getSelectedItem().toString().equals("DEFAULT")) {
-                    headerrow.barcode = "false";
-                }
+                if (changeMode.getSelectedItem().toString().equals("BARCODE"))
+                    headerrow.barcode = true;
+
 
 
                 db.execSQL("insert into TransactionHeader  (tblRFIDTransType, tblUser, tblStore,RFID_CreationDate,barcode) values ('" + headerrow.tblRFIDTransType + "','" + headerrow.tblUser + "','" + headerrow.tblStore + "','" + headerrow.RFID_CreationDate + "','" + headerrow.barcode + "')");
@@ -171,61 +175,49 @@ public class transaction_listView extends Activity implements fetchData.download
                 db.endTransaction();
             }
 
-            Cursor c = db.rawQuery("select count(*) as COUNT from TransactionHeader", null);
-            while (c.moveToNext()) {
-                x = c.getString(c.getColumnIndex("COUNT")); }
-            Gson g = new Gson();
-            StringEntity entity1 = null;
-            data.clear();
-            c = db.rawQuery("select distinct tblRFIDTransType, tblUser, tblStore, RFID_CreationDate, barcode from TransactionHeader where tblRFIDTransType = " + headerrow.tblRFIDTransType , null);
+            final Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+            AsyncHttpClient client = new AsyncHttpClient();
+            HashMap<String, Integer> param = new HashMap<String, Integer>();
+            HashMap<String, Boolean> param1 = new HashMap<String, Boolean>();
+            HashMap<String, String> param2 = new HashMap<String, String>();
+
+            Cursor c = db.rawQuery("select distinct tblRFIDTransType, tblUser, tblStore, RFID_CreationDate, barcode from TransactionHeader " , null);
+
             if (c != null && c.getCount() > 0) {
                 while (c.moveToNext()) {
-                    data.add(new transaction_listView.headerRow(c.getInt(c.getColumnIndex("tblRFIDTransType")), (c.getInt(c.getColumnIndex("tblUser"))), (c.getInt(c.getColumnIndex("tblStore"))), (c.getString(c.getColumnIndex("RFID_CreationDate"))), (c.getString(c.getColumnIndex("barcode")))));
+                    data.add(new transaction_listView.headerRow(c.getInt(c.getColumnIndex("tblRFIDTransType")), (c.getInt(c.getColumnIndex("tblUser"))), (c.getInt(c.getColumnIndex("tblStore"))), (c.getString(c.getColumnIndex("RFID_CreationDate"))), barcode));
+                     params = new RequestParams();
+                    params.put("tblRFIDTransType", String.valueOf(c.getInt(c.getColumnIndex("tblRFIDTransType"))));
+                    params.put("tblUser",String.valueOf(c.getInt(c.getColumnIndex("tblUser"))));
+                    params.put("tblStore",String.valueOf(c.getInt(c.getColumnIndex("tblStore"))));
+                    params.put("barcode",  String.valueOf(c.getString(c.getColumnIndex("barcode"))));
+                    params.put("RFID_CreationDate", c.getString(c.getColumnIndex("RFID_CreationDate")));
+
+                    Log.d(TAG, "run: " +params);
+
                 }
             }
-            c.close();
-            String userData = g.toJson(data);
-            Log.d(TAG, "onSuccess: " + userData);
+                    c.close();
 
-            try {
-                entity1 = new StringEntity(userData, "UTF-8");
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-            String serviceURL = "http://41.65.223.218:8888/api/RFIDTransHeader";
-            Log.d(TAG, serviceURL);
-            AsyncHttpClient client = new AsyncHttpClient();
-            try {
-                client.post(getApplication(), serviceURL, entity1, "application/json", new AsyncHttpResponseHandler() {
-                    @Override
-                    public void onStart() {
-                        super.onStart();
-                    }
 
-                    @Override
-                    public void onSuccess(String NewIserial) {
-                        Log.d(TAG, "onSuccess: " + NewIserial);
-                        SharedPreferences pref = getApplication().getSharedPreferences("NewIserial", MODE_PRIVATE);
-                        SharedPreferences.Editor editor = pref.edit();
-                        editor.putString("NewIserial", NewIserial);  // Saving string
-                        editor.apply();
-                        super.onSuccess(NewIserial);
-                    }
+                    client.post("http://41.65.223.218:8888/api/RFIDTransHeader", params, new AsyncHttpResponseHandler() {
+                @Override
+                public void onSuccess(String NewIserial) {
+                    if (!NewIserial.equals(0)){
 
-                    @Override
-                    public void onFailure(Throwable error) {
-                        Toast.makeText(mContext, "Data has not been sent", Toast.LENGTH_SHORT).show();
+                        db.delete("TransactionHeader","tblRFIDTransType = ?", new String[]{String.valueOf(headerrow.tblRFIDTransType)});
 
-                        super.onFailure(error);
-                    }
+                    Log.d(TAG, "onSuccess: " + NewIserial);
+                    SharedPreferences pref = getApplication().getSharedPreferences("NewIserial", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+                    editor.putString("NewIserial", NewIserial);  // Saving string
+                    editor.apply();
+                    super.onSuccess(NewIserial); }}
+            });}}, 2000);
 
-                    @Override
-                    public void onFinish() {
-                        super.onFinish();
-                    }
-                });
-            } catch (IllegalArgumentException exception) {
-            }
 
 
             if (ModeIndicator.equals("DEFAULT")){
@@ -240,8 +232,8 @@ public class transaction_listView extends Activity implements fetchData.download
                 barcode = true;
                 FragmentManager manager = getFragmentManager();
                 FragmentTransaction transaction = manager.beginTransaction();
-                transaction.replace(R.id.xxx,TransRFIDFragment.newInstance());
-                TransList.setVisibility(View.VISIBLE);
+                transaction.replace(R.id.xxx,ShipItemsFragment.newInstance());
+                TransList.setVisibility(View.GONE);
                 transaction.commit();
             }
 
@@ -285,9 +277,9 @@ public class transaction_listView extends Activity implements fetchData.download
         private int tblUser;
         private  int tblStore;
         private String RFID_CreationDate;
-        private String barcode;
+        private boolean barcode;
 
-        public headerRow(int tblRFIDTransType, int tblUser, int tblStore, String RFID_CreationDate, String barcode) {
+        public headerRow(int tblRFIDTransType, int tblUser, int tblStore, String RFID_CreationDate, Boolean barcode) {
             this.tblRFIDTransType = tblRFIDTransType;
             this.tblUser = tblUser;
             this.tblStore = tblStore;
@@ -331,11 +323,11 @@ public class transaction_listView extends Activity implements fetchData.download
             this.RFID_CreationDate = RFID_CreationDate;
         }
 
-        public String getBarcode() {
+        public Boolean getBarcode() {
             return barcode;
         }
 
-        public void setBarcode(String barcode) {
+        public void setBarcode(Boolean barcode) {
             this.barcode = barcode;
         }
 
