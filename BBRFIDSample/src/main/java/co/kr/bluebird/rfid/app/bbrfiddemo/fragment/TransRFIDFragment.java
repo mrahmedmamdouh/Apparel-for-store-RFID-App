@@ -44,6 +44,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 
 import org.apache.http.entity.StringEntity;
 
@@ -51,6 +52,7 @@ import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -58,9 +60,11 @@ import java.util.TimerTask;
 import co.kr.bluebird.rfid.app.bbrfiddemo.Constants;
 import co.kr.bluebird.rfid.app.bbrfiddemo.MainActivity;
 import co.kr.bluebird.rfid.app.bbrfiddemo.R;
+import co.kr.bluebird.rfid.app.bbrfiddemo.Transaction_objects;
 import co.kr.bluebird.rfid.app.bbrfiddemo.WDxDBHelper;
 import co.kr.bluebird.rfid.app.bbrfiddemo.control.ListItem;
 import co.kr.bluebird.rfid.app.bbrfiddemo.control.TagListAdapter;
+import co.kr.bluebird.rfid.app.bbrfiddemo.customAdapter;
 import co.kr.bluebird.rfid.app.bbrfiddemo.cycleCount;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fileutil.FileManager;
 import co.kr.bluebird.rfid.app.bbrfiddemo.permission.PermissionHelper;
@@ -167,8 +171,9 @@ public class TransRFIDFragment extends Fragment {
     private LinearLayout mLocateLayout;
 
     private LinearLayout mListLayout;
-
+public customAdapter adapter;
     private ProgressBar mTagLocateProgress;
+    public TransRFIDFragment main;
 
     private int mLocateValue;
 
@@ -190,14 +195,18 @@ public class TransRFIDFragment extends Fragment {
     private Spinner mSelFlagSpin;
     public static String x,y;
     private ArrayAdapter<CharSequence> mSelFlagChar;
+    private android.app.FragmentManager mFragmentManager;
+    private android.app.Fragment mCurrentFragment;
 
     WDxDBHelper dbhelper;
     SQLiteDatabase db;
     //private int mCurrentPower;
 
+    public  String NewIserial,SPName;
     ArrayList<TransRFIDFragment.itemModel> data= new ArrayList<>();
     public static String  urlNumber, portNumber;
     private int mTickCount = 0;
+    TextView transactionType;
 
     private TransRFIDFragment.UpdateStopwatchHandler mUpdateStopwatchHandler = new TransRFIDFragment.UpdateStopwatchHandler(this);
 
@@ -210,12 +219,17 @@ public class TransRFIDFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         if (D) Log.d(TAG, "onCreateView");
-        View v = inflater.inflate(R.layout.brinventory_frag, container, false);
+        View v = inflater.inflate(R.layout.brinventory_frag2, container, false);
         mContext = inflater.getContext();
-
+        mCurrentFragment = null;
+        mFragmentManager = getFragmentManager();
         dbhelper = new WDxDBHelper(getActivity());
         db =dbhelper.getWritableDatabase();
 
+        transactionType = (TextView)v.findViewById(R.id.transactionType);
+        SharedPreferences pref4 = getActivity().getSharedPreferences("Ename", Context.MODE_PRIVATE);
+        String Ename = pref4.getString("Ename", "DEFAULT");
+        transactionType.setText(Ename);
         mOptionHandler = ((transaction_listView)getActivity()).mUpdateConnectHandler;
 
         mRfidList = (ListView)v.findViewById(R.id.rfid_list);
@@ -404,9 +418,33 @@ public class TransRFIDFragment extends Fragment {
                         public void onSuccess(String id) {
                             if(id.equals("true")){
                             Toast.makeText(mContext, "DATA HAS BEEN SENT SUCCESSFULLY ", Toast.LENGTH_LONG).show();
-                                db.delete("TransactionDetails","tblRFidTransHeader= ?", new String[]{_NewIserial});}
+                                db.delete("TransactionDetails","tblRFidTransHeader= ?", new String[]{_NewIserial});
+
+                                SharedPreferences pref = getActivity().getSharedPreferences("NewIserial", Context.MODE_PRIVATE);
+                                NewIserial = pref.getString("NewIserial", "DEFAULT");
+
+                                SharedPreferences pref1 = getActivity().getSharedPreferences("SPName", Context.MODE_PRIVATE);
+                                SPName = pref1.getString("SPName", "DEFAULT");
+
+                                AsyncHttpClient client = new AsyncHttpClient();
+                                RequestParams params = new RequestParams();
+                                params.put("NewIserial", NewIserial);
+                                params.put("SPName", SPName);
+                                client.post("http://41.65.223.218:8888/API/RFIDTransSP?TransId=41&SPName=SP1", params, new AsyncHttpResponseHandler() {
+                                    @Override
+                                    public void onSuccess(String numberOfRows) {
+                                            Log.d(TAG, "onSuccess: " + numberOfRows);
+                                        SharedPreferences pref = getActivity().getSharedPreferences("numberOfRows", MODE_PRIVATE);
+                                        SharedPreferences.Editor editor = pref.edit();
+                                        editor.putString("numberOfRows", numberOfRows);  // Saving string
+                                        editor.apply();
+                                            super.onSuccess(numberOfRows); }
+                                });
+
+                            }
                             else if (id.equals("false")){ Toast.makeText(mContext, "DATA HAS NOT BEEN SENT .... PLEASE TRY AGAIN LATER ", Toast.LENGTH_LONG).show();}
                             Log.d(TAG, "onSuccess: " + id);
+
                             super.onSuccess(id);
                         }
                         @Override
@@ -1363,7 +1401,7 @@ public class TransRFIDFragment extends Fragment {
     private void locateTimeout() {
         mTagLocateProgress.setProgress(0);
     }
-    private class itemModel
+    public static class itemModel
     {
         private String EBC;
         private int tblRFidTransHeader;

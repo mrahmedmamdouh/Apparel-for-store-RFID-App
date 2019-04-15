@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdx.dev.datacollector.UtilFragment">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.wdx.dev.datacollector.Util"
+        android:weightSum="8">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_importItemList"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Import ItemList"/>
+        <Button
+            android:id="@+id/btn_exportZone"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Export Zone"/>
+        <Button
+            android:id="@+id/btn_clearZone"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Clear Zone"/>
+        <Button
+            android:id="@+id/btn_exportAllClear"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Export All Clear"/>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Back"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ProgressBar
+            android:id="@+id/Pbar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

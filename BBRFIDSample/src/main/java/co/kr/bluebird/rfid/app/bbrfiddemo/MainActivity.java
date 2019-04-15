@@ -58,6 +58,7 @@ import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.InventoryFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.PutAwayToStore;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.RFAccessFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.RFConfigFragment;
+import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.RFIDWriteFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.RFSelectionFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.RapidFragment;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.ReceivingToStore;
@@ -110,6 +111,7 @@ public class MainActivity extends Activity {
     private InfoFragment mInfoFragment;
     private BatteryFragment mBatteryFragment;
     private BRReplFragment mReplenishmentFragment;
+    private RFIDWriteFragment mRFIDWriteFragment;
     private ReceivingToStore mReceivingToStore;
     private PutAwayToStore mPutAwayToStoreFragment;
     private Button enablesettings, disablesettings;
@@ -128,7 +130,7 @@ public class MainActivity extends Activity {
     private ImageButton mRapidButton;
     private ImageButton mPutAway;
     private ImageButton mReceiving;
-    private ImageButton senddata;
+    private ImageButton RFIDWrtie;
     private ImageButton mBarcodeButton;
     private ImageButton mBatteryButton;
     private ImageButton mInformationButton;
@@ -223,9 +225,11 @@ public class MainActivity extends Activity {
         mSettingsButton = (ImageButton) findViewById(R.id.rfsettings);
         mSettingsButton.setMinimumHeight(buttonHeight);
 
-        senddata = (ImageButton)findViewById(R.id.senddata);
-        senddata.setOnClickListener(buttonListener);
-        senddata.setMinimumHeight(buttonHeight);
+        RFIDWrtie = (ImageButton)findViewById(R.id.RFIDWrtie);
+        RFIDWrtie.setOnClickListener(buttonListener);
+        RFIDWrtie.setMinimumHeight(buttonHeight);
+
+
 
 
 
@@ -330,6 +334,10 @@ public class MainActivity extends Activity {
                 case R.id.rfCycleCount:
                     id = 13;
                     break;
+                case R.id.RFIDWrtie:
+                    id=14;
+                    break;
+
             }
             selectItem(id);
         }
@@ -404,7 +412,7 @@ public class MainActivity extends Activity {
                     mInfoFragment = InfoFragment.newInstance();
                 mCurrentFragment = mInfoFragment;
                 break;
-            case 14:
+            case 12:
                 if (mInfoFragment == null)
                     mInfoFragment = InfoFragment.newInstance();
                 mCurrentFragment = mInfoFragment;
@@ -442,6 +450,12 @@ public class MainActivity extends Activity {
                     mInfoFragment = InfoFragment.newInstance();
                 mCurrentFragment = mInfoFragment;
                 break;
+
+                case 14:
+                    if (mRFIDWriteFragment == null)
+                        mRFIDWriteFragment = RFIDWriteFragment.newInstance();
+                    mCurrentFragment = mRFIDWriteFragment;
+                    break;
 
 
             default:

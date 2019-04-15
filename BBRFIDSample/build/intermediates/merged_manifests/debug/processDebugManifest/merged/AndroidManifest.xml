@@ -32,11 +32,26 @@
         <activity
             android:name="co.kr.bluebird.rfid.app.bbrfiddemo.transaction_listView"
             android:configChanges="orientation|screenSize"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="co.kr.bluebird.rfid.app.bbrfiddemo.SettingLoginScreen"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="co.kr.bluebird.rfid.app.bbrfiddemo.BarcodeFiles.MainMenu"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="co.kr.bluebird.rfid.app.bbrfiddemo.BarcodeFiles.SelectStoreForm"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="co.kr.bluebird.rfid.app.bbrfiddemo.BarcodeFiles.CZone"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />

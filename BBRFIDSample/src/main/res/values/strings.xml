@@ -317,7 +317,7 @@
     <string name="cancel_str">"CANCEL"</string>
 
     <string-array name="change_Mode">
-        <item>DEFAULT</item>
+        <item>RFID(DEFAULT)</item>
         <item>BARCODE</item>
     </string-array>
     <string-array name="selection_memtype_array">

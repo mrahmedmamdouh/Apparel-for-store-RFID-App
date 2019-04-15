@@ -12,6 +12,19 @@ public class WDxDBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME="shorbagy.db";
     public static final int DATABASE_VERSION= 5 ;
+    public static final String CREATE_TBL_Carton="Create Table TblCarton (EBC text ,Qty integer ,ShipNo text,tblRFidTransHeader integer);";
+    public static final String CREATE_TBL_Setting="Create Table TblSetting (ZoneNo integer ,DevId integer,ActiveZoneNo integer ,EanNoCheckDig integer, ShowStore integer ,ActiveStoreCode text, CheckFreeScan integer , CheckServerConnection integer , ServiceURL text );";
+    public static final String CREATE_TBL_Ship="Create Table TblShip (ShipNo text);";
+    public static final String CREATE_TBL_Stock="Create Table tblstock (iserial text,Counted integer Default 0,TblItem integer,Zone integer,StoreCode text,ShipNo text);";
+    public static final String CREATE_TBL_Store="Create Table TblStore (Code text Primary Key,Ename text);";
+
+    // Indexes
+    public static final String CREATE_TBL_StoreIndex = "CREATE INDEX PK_TblStore ON TblStore(Code)" ;
+
+    public static final String CREATE_TBL_Stocke_Zone = "CREATE INDEX indxZone ON tblstock(Zone)" ;
+    public static final String CREATE_TBL_Stocke_ISerial = "CREATE INDEX iserialndx ON tblstock(iserial)" ;
+    public static final String CREATE_TBL_Stocke_ShipNo = "CREATE INDEX ShipNoIndx ON tblstock(ShipNo)" ;
+    public static final String CREATE_TBL_Stocke_PK = "CREATE INDEX pk_indx ON tblstock(iserial,Zone,StoreCode)" ;
 
     public static final String CREATE_TBL_TagDetails = "Create Table tags ( tagID  integer Primary Key,epc text not null,tid text not null UNIQUE);";
     public static final String CREATE_TBL_StoreCount = "Create Table storecount ( items text );";
@@ -58,7 +71,17 @@ public class WDxDBHelper extends SQLiteOpenHelper {
         {
             e.printStackTrace();
         }
-
+        db.execSQL(CREATE_TBL_Carton);
+        db.execSQL(CREATE_TBL_Setting);
+        db.execSQL(CREATE_TBL_Ship);
+        db.execSQL(CREATE_TBL_Stock);
+        db.execSQL(CREATE_TBL_Store);
+        // Indexes
+        db.execSQL(CREATE_TBL_StoreIndex);
+        db.execSQL(CREATE_TBL_Stocke_Zone);
+        db.execSQL(CREATE_TBL_Stocke_ISerial);
+        db.execSQL(CREATE_TBL_Stocke_ShipNo);
+        db.execSQL(CREATE_TBL_Stocke_PK);
         db.execSQL(CREATE_TBL_TagDetails);
         db.execSQL(CREATE_TBL_StoreCount);
         db.execSQL(CREATE_TBL_BRCount);
@@ -90,7 +113,11 @@ public class WDxDBHelper extends SQLiteOpenHelper {
         db.execSQL("drop table if exists ReceivingCount");
         db.execSQL("drop table if exists TransactionHeader");
         db.execSQL("drop table if exists TransactionDetails");
-
+        db.execSQL("drop table if exists TblCarton");
+        db.execSQL("drop table if exists TblSetting");
+        db.execSQL("drop table if exists TblShip");
+        db.execSQL("drop table if exists tblstock");
+        db.execSQL("drop table if exists TblStore");
         try {
             db.execSQL(Constants.DROP_TB);
             db.execSQL(Constants.CREATE_TB);
@@ -102,6 +129,7 @@ public class WDxDBHelper extends SQLiteOpenHelper {
             db.execSQL(Constants.CREATE_TB3);
             db.execSQL(Constants.DROP_TB4);
             db.execSQL(Constants.CREATE_TB4);
+
         }catch (SQLException e)
         {
             e.printStackTrace();

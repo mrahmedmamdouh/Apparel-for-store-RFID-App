@@ -37,8 +37,9 @@
                     android:progressDrawable="@drawable/battery_progress" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
                     <FrameLayout
@@ -50,7 +51,7 @@
                         <ImageButton
                             android:id="@+id/connect_bt"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:background="@color/blue"
                             android:scaleType="center"
 
@@ -74,7 +75,7 @@
                         android:id="@+id/encodeFrame"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="3dip"
+                        android:layout_marginRight="-10dp"
                         android:layout_weight="1">
 
                         <ImageButton
@@ -101,17 +102,17 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="7dip"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
 
 
                     <FrameLayout
                         android:id="@+id/cycleFrame"
-                        android:layout_width="262dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="3dip"
+                        android:layout_marginRight="45dp"
                         android:layout_weight="1">
 
                         <ImageButton
@@ -136,9 +137,9 @@
 
                     <FrameLayout
                         android:id="@+id/Receiving"
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="55dp"
+                        android:layout_marginLeft="-42.5dp"
                         android:layout_weight="1">
 
                         <ImageButton
@@ -146,15 +147,15 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@color/blue"
-                            android:scaleType="center"
-                            android:src="@drawable/receiving"></ImageButton>
+                            android:scaleType="fitStart"
+                            android:src="@drawable/images"></ImageButton>
 
                         <TextView
                             android:id="@+id/Receiving3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="40dp"
-                            android:layout_marginTop="75dp"
+                            android:layout_marginStart="-40dp"
+                            android:layout_gravity="bottom|center_horizontal"
                             android:clickable="false"
                             android:text="RECEIVING ITEMS"
                             android:textStyle="bold">
@@ -198,16 +199,16 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="7dip"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <FrameLayout
                         android:id="@+id/replenishment1"
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="-10dip"
+                        android:layout_marginLeft="-2dp"
                         android:layout_weight="1">
 
                         <ImageButton
@@ -238,7 +239,7 @@
                         android:id="@+id/putAway"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="5dip"
+                        android:layout_marginLeft="3dp"
                         android:layout_weight="1">
 
                         <ImageButton
@@ -265,15 +266,15 @@
                     </FrameLayout>
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="7dip"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
                     <FrameLayout
                         android:id="@+id/transaction"
                         android:layout_width="165dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="-10dip"
+                        android:layout_marginLeft="-18dp"
                         android:visibility="visible"
                         >
 
@@ -290,6 +291,7 @@
                             android:id="@+id/transaction2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
                             android:layout_gravity="bottom|center_horizontal"
                             android:clickable="false"
                             android:text="Transaction Process"
@@ -305,17 +307,17 @@
                         android:id="@+id/senddata1"
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="-10dip"
-                        android:visibility="gone"
+                        android:layout_marginLeft="3dp"
+                        android:visibility="visible"
                         android:layout_weight="1">
 
                         <ImageButton
-                            android:id="@+id/senddata"
+                            android:id="@+id/RFIDWrtie"
+                            android:background="@color/blue"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#fdf5e6"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/sync"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/encoding"
                             android:visibility="visible"></ImageButton>
 
                         <TextView
@@ -324,7 +326,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom|center_horizontal"
                             android:clickable="false"
-                            android:text="SYNC DATA"
+                            android:text="RFID WRITE"
                             android:textStyle="bold"
                             android:visibility="visible">
 

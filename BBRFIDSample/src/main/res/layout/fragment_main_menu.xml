@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdx.dev.datacollector.MainMenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/frame_layout"
+        android:weightSum="8">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_setupZone"
+            android:layout_width="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Setup Zone"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btn_item"
+            android:layout_width="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Item"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_shipItem"
+            android:layout_width="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Ship/Item"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -28,6 +28,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 
 import org.apache.http.entity.StringEntity;
 
@@ -38,17 +39,22 @@ import co.kr.bluebird.rfid.app.bbrfiddemo.Constants;
 import co.kr.bluebird.rfid.app.bbrfiddemo.R;
 import co.kr.bluebird.rfid.app.bbrfiddemo.WDxDBHelper;
 
+import static android.content.Context.MODE_PRIVATE;
+
 public class senddatafragment extends Fragment {
 
     private static final String TAG = senddatafragment.class.getSimpleName();
     private static final boolean D = Constants.INFO_D;
 
-    private Button senddata;
+    private Button senddata,senddatabr,senddatarectostore, senddatarectobkr,senddataputawaytostr,senddataputawaytobkr,senddatatrans;
     WDxDBHelper dbhelper;
+    public String _NewIserial,NewIserial,SPName;
+
 
     SQLiteDatabase db;
     ArrayList<itemModel> data= new ArrayList<>();
-    ArrayList<itemModel> data2=new ArrayList<>();
+    ArrayList<itemModel> data3= new ArrayList<>();
+    ArrayList<TransRFIDFragment.itemModel> data2=new ArrayList<>();
     public static String store_id, urlNumber, portNumber;
     private ProgressBar mBatteryProgress;
 
@@ -66,7 +72,13 @@ public class senddatafragment extends Fragment {
 
         db =dbhelper.getWritableDatabase();
         senddata = (Button) v.findViewById(R.id.senddata);
-        Button senddatabr = (Button) v.findViewById(R.id.senddatabr);
+        senddatabr  = (Button) v.findViewById(R.id.senddatabr);
+        senddatarectostore  = (Button) v.findViewById(R.id.senddatabrrec);
+        senddatarectobkr  = (Button) v.findViewById(R.id.senddatabrrec);
+        senddataputawaytostr  = (Button) v.findViewById(R.id.senddataputaway);
+        senddataputawaytobkr  = (Button) v.findViewById(R.id.senddatabrputaway);
+        senddatatrans  = (Button) v.findViewById(R.id.senddatatrans);
+
 
         SharedPreferences pref = getActivity().getSharedPreferences("storeNumber", Context.MODE_PRIVATE);
         store_id = pref.getString("storeNumber", "DEFAULT");
@@ -76,6 +88,338 @@ public class senddatafragment extends Fragment {
 
         SharedPreferences pref2 = getActivity().getSharedPreferences("portNumber", Context.MODE_PRIVATE);
         portNumber = pref2.getString("portNumber", "DEFAULT");
+
+
+        senddatatrans.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Gson g = new Gson();
+                StringEntity entity1 = null;
+                data2.clear();
+                Cursor c = db.rawQuery("select distinct EBC,tblRFidTransHeader from TransactionDetails where tblRFidTransHeader = " + _NewIserial,null);
+                if(c!=null && c.getCount()>0)
+                {
+                    while(c.moveToNext())
+                    {
+                        data2.add(new TransRFIDFragment.itemModel(c.getString(c.getColumnIndex("EBC")), (c.getInt(c.getColumnIndex("tblRFidTransHeader")))));
+                    }
+                }
+                c.close();
+                String userData = g.toJson(data2);
+                try {
+                    entity1= new StringEntity(userData,"UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                String serviceURL = "http://41.65.223.218:8888/api/RFIDTransDetails";
+                Log.d(getTag(),serviceURL);
+                AsyncHttpClient client = new AsyncHttpClient();
+                try {
+                    client.post(getActivity(), serviceURL  , entity1,"application/json", new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onStart() {
+                            super.onStart();
+                        }
+                        @Override
+                        public void onSuccess(String id) {
+                            if(id.equals("true")){
+                                Toast.makeText(getActivity(), "DATA HAS BEEN SENT SUCCESSFULLY ", Toast.LENGTH_LONG).show();
+                                db.delete("TransactionDetails","tblRFidTransHeader= ?", new String[]{_NewIserial});
+                                SharedPreferences pref = getActivity().getSharedPreferences("NewIserial", Context.MODE_PRIVATE);
+                                NewIserial = pref.getString("NewIserial", "DEFAULT");
+
+                                SharedPreferences pref1 = getActivity().getSharedPreferences("SPName", Context.MODE_PRIVATE);
+                                SPName = pref1.getString("SPName", "DEFAULT");
+
+                                AsyncHttpClient client = new AsyncHttpClient();
+                                RequestParams params = new RequestParams();
+                                params.put("NewIserial", NewIserial);
+                                params.put("NewIserial", SPName);
+                                client.post("http://41.65.223.218:8888/API/RFIDTransSP?TransId=41&SPName=SP1", params, new AsyncHttpResponseHandler() {
+                                    @Override
+                                    public void onSuccess(String numberOfRows) {
+                                        Log.d(TAG, "onSuccess: " + numberOfRows);
+                                        SharedPreferences pref = getActivity().getSharedPreferences("numberOfRows", MODE_PRIVATE);
+                                        SharedPreferences.Editor editor = pref.edit();
+                                        editor.putString("numberOfRows", numberOfRows);  // Saving string
+                                        editor.apply();
+                                        super.onSuccess(numberOfRows); }
+                                });
+
+                            }
+                            else if (id.equals("false")){ Toast.makeText(getActivity(), "DATA HAS NOT BEEN SENT .... PLEASE TRY AGAIN LATER ", Toast.LENGTH_LONG).show();}
+                            Log.d(TAG, "onSuccess: " + id);
+
+                            super.onSuccess(id);
+                        }
+                        @Override
+                        public void onFailure(Throwable error) {
+                            Toast.makeText(getActivity(), "Data has not been sent", Toast.LENGTH_SHORT).show();
+
+                            super.onFailure(error);
+                        }
+                        @Override
+                        public void onFinish() {
+                            data.clear();
+                            super.onFinish();
+                        }
+                    });
+                }
+                catch (IllegalArgumentException exception)
+                {
+                }
+            }
+        });
+
+
+
+        senddataputawaytobkr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Gson g = new Gson();
+                StringEntity entity1 = null;
+                data.clear();
+                Cursor c = db.rawQuery("select distinct items from PutAwayCount",null);
+                if(c!=null && c.getCount()>0)
+                {
+                    while(c.moveToNext())
+                    {
+                        data.add(new itemModel(c.getString(c.getColumnIndex("items")),store_id));
+                    }
+                }
+                c.close();
+                String userData = g.toJson(data);
+                try {
+                    entity1= new StringEntity(userData,"UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                String serviceURL = "http://" + urlNumber + ":" + portNumber+ "/api/Data/AddBrItems";
+                Log.d(getTag(),serviceURL);
+                AsyncHttpClient client = new AsyncHttpClient();
+                try {
+                    client.post(getActivity(), serviceURL  , entity1,"application/json", new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onStart() {
+                            super.onStart();
+                        }
+                        @Override
+                        public void onSuccess(String content) {
+                            Toast.makeText(getActivity(), "Data has been sent", Toast.LENGTH_SHORT).show();
+                            db.delete("PutAwayCount",null,null);
+
+                            super.onSuccess(content);
+                        }
+                        @Override
+                        public void onFailure(Throwable error) {
+                            Toast.makeText(getActivity(), "Data has not been sent", Toast.LENGTH_SHORT).show();
+
+                            super.onFailure(error);
+                        }
+                        @Override
+                        public void onFinish() {
+                            super.onFinish();
+                        }
+                    });
+                }
+                catch (IllegalArgumentException exception)
+                {
+                }
+
+
+
+
+            }
+        });
+
+
+
+
+        senddataputawaytostr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Gson g = new Gson();
+                StringEntity entity1 = null;
+                data.clear();
+                Cursor c = db.rawQuery("select distinct items from PutAwayCount",null);
+                if(c!=null && c.getCount()>0)
+                {
+                    while(c.moveToNext())
+                    {
+                        data.add(new itemModel(c.getString(c.getColumnIndex("items")),store_id));
+                    }
+                }
+                c.close();
+                String userData = g.toJson(data);
+                try {
+                    entity1= new StringEntity(userData,"UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                String serviceURL = "http://" + urlNumber + ":" + portNumber+ "/api/Data/AddBrItems";
+                Log.d(getTag(),serviceURL);
+                AsyncHttpClient client = new AsyncHttpClient();
+                try {
+                    client.post(getActivity(), serviceURL  , entity1,"application/json", new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onStart() {
+                            super.onStart();
+                        }
+                        @Override
+                        public void onSuccess(String content) {
+                            Toast.makeText(getActivity(), "Data has been sent", Toast.LENGTH_SHORT).show();
+                            db.delete("PutAwayCount",null,null);
+
+                            super.onSuccess(content);
+                        }
+                        @Override
+                        public void onFailure(Throwable error) {
+                            Toast.makeText(getActivity(), "Data has not been sent", Toast.LENGTH_SHORT).show();
+
+                            super.onFailure(error);
+                        }
+                        @Override
+                        public void onFinish() {
+                            super.onFinish();
+                        }
+                    });
+                }
+                catch (IllegalArgumentException exception)
+                {
+                }
+
+
+
+
+            }
+        });
+
+
+
+        senddatarectobkr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Gson g = new Gson();
+                StringEntity entity1 = null;
+                data.clear();
+                Cursor c = db.rawQuery("select distinct items from ReceivingCount",null);
+                if(c!=null && c.getCount()>0)
+                {
+                    while(c.moveToNext())
+                    {
+                        data.add(new itemModel(c.getString(c.getColumnIndex("items")),store_id));
+                    }
+                }
+                c.close();
+                String userData = g.toJson(data);
+                try {
+                    entity1= new StringEntity(userData,"UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                String serviceURL = "http://" + urlNumber + ":" + portNumber+ "/api/Data/AddReceBrItems";
+                Log.d(getTag(),serviceURL);
+                AsyncHttpClient client = new AsyncHttpClient();
+                try {
+                    client.post(getActivity(), serviceURL  , entity1,"application/json", new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onStart() {
+                            super.onStart();
+                        }
+                        @Override
+                        public void onSuccess(String content) {
+                            Toast.makeText(getActivity(), "Data has been sent", Toast.LENGTH_SHORT).show();
+                            db.delete("ReceivingCount",null,null);
+
+                            super.onSuccess(content);
+                        }
+                        @Override
+                        public void onFailure(Throwable error) {
+                            Toast.makeText(getActivity(), "Data has not been sent", Toast.LENGTH_SHORT).show();
+
+                            super.onFailure(error);
+                        }
+                        @Override
+                        public void onFinish() {
+                            super.onFinish();
+                        }
+                    });
+                }
+                catch (IllegalArgumentException exception)
+                {
+                }
+
+
+
+            }
+        });
+
+
+        senddatarectostore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Gson g = new Gson();
+                StringEntity entity1 = null;
+                data.clear();
+                Cursor c = db.rawQuery("select distinct items from ReceivingCount",null);
+                if(c!=null && c.getCount()>0)
+                {
+                    while(c.moveToNext())
+                    {
+                        data.add(new itemModel(c.getString(c.getColumnIndex("items")),store_id));
+                    }
+                }
+                c.close();
+                String userData = g.toJson(data);
+                try {
+                    entity1= new StringEntity(userData,"UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                String serviceURL = "http://" + urlNumber + ":" + portNumber+ "/api/Data/AddReceStItems";
+                Log.d(getTag(),serviceURL);
+                AsyncHttpClient client = new AsyncHttpClient();
+                try {
+                    client.post(getActivity(), serviceURL  , entity1,"application/json", new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onStart() {
+                            super.onStart();
+                        }
+                        @Override
+                        public void onSuccess(String transId) {
+                            SharedPreferences pref = getActivity().getSharedPreferences("transactionId", MODE_PRIVATE);
+                            SharedPreferences.Editor editor = pref.edit();
+                            editor.putString("transactionId", transId);  // Saving string
+                            editor.apply();
+                            db.delete("ReceivingCount",null,null);
+                            Toast.makeText(getActivity(), "Data has been sent by transaction id : " +  transId, Toast.LENGTH_SHORT).show();
+                            super.onSuccess(transId);
+                        }
+                        @Override
+                        public void onFailure(Throwable error) {
+                            Toast.makeText(getActivity(), "Data has not been sent", Toast.LENGTH_SHORT).show();
+
+                            super.onFailure(error);
+                        }
+                        @Override
+                        public void onFinish() {
+                            super.onFinish();
+                        }
+                    });
+                }
+                catch (IllegalArgumentException exception)
+                {
+                }
+
+
+
+
+            }
+        });
+
 
         senddata.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,17 +431,17 @@ public class senddatafragment extends Fragment {
 
 
 
-                data2.clear();
+                data3.clear();
                 Cursor c1 = db.rawQuery("select distinct items from storecount",null);
                 if (c1!=null && c1.getCount()>0)
                 {
                     while ((c1.moveToNext()))
                     {
-                        data2.add(new itemModel(c1.getString(c1.getColumnIndex("items")),store_id));
+                        data3.add(new itemModel(c1.getString(c1.getColumnIndex("items")),store_id));
                     }
                 }
                 c1.close();
-                String userData1 = g.toJson(data2);
+                String userData1 = g.toJson(data3);
                 try {
                     entity= new StringEntity(userData1,"UTF-8");
                 } catch (UnsupportedEncodingException e){

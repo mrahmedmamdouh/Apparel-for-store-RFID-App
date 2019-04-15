@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdx.dev.datacollector.CZoneFragment">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.wdx.dev.datacollector.CZone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Max Zone"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_input_method_navigation_guard"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <EditText
+                android:id="@+id/txt_maxZone"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Active Zone"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_input_method_navigation_guard"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <EditText
+                android:id="@+id/txt_activeZone"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Device ID"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_input_method_navigation_guard"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <EditText
+                android:id="@+id/txt_deviceID"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/ch_showStoreNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Store #"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard"/>
+        <CheckBox
+            android:id="@+id/ch_removeCheckDigit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Check Digit"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard"/>
+        <CheckBox
+            android:id="@+id/ch_freeScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Scan"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard"/>
+        <CheckBox
+            android:id="@+id/ch_serverConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server Connection"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard"/>
+        <Button
+            android:id="@+id/btn_saveSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginLeft="70dp"/>
+        <Button
+            android:id="@+id/btn_importStores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Import Stores"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginLeft="70dp"/>
+        <EditText
+            android:id="@+id/txt_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"/>
+    </LinearLayout>
+
+</FrameLayout>

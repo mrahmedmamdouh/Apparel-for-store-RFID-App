@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -20,9 +21,8 @@ import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -32,23 +32,22 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Locale;
 
-import co.kr.bluebird.rfid.app.bbrfiddemo.control.ListItem;
-import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.BRReplFragment;
-import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.ShipItemsFragment;
+import co.kr.bluebird.rfid.app.bbrfiddemo.BarcodeFiles.MainMenu;
+import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.BarcodeFragments.ShipItemsFragment;
+import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.ShipItemsFragment1;
 import co.kr.bluebird.rfid.app.bbrfiddemo.fragment.TransRFIDFragment;
 import co.kr.bluebird.sled.Reader;
 import co.kr.bluebird.sled.SDConsts;
 
 public class transaction_listView extends Activity implements fetchData.download_complete {
     public Context mContext;
+    public String numberOfRows,numberOfRowsBarCode;
     public transaction_listView main;
     public customAdapter adapter;
     public ListView list;
@@ -60,6 +59,8 @@ public class transaction_listView extends Activity implements fetchData.download
     public String urlNumber;
     public String portNumber;
     public String store_id;
+    public TextView changeModeText;
+    public  String param1,param2;
 public RequestParams params;
     public static String x;
     public String RFID_CreationDate;
@@ -69,7 +70,7 @@ public RequestParams params;
     public int tblRFIDTransType, tblUser, tblStore;
     public boolean barcode = false;
     private static final String TAG = transaction_listView.class.getSimpleName();
-
+public String SPName;
     private static final boolean D = Constants.MAIN_D;
 
     public static ArrayList <Transaction_objects> transElements = new ArrayList<>();
@@ -87,6 +88,8 @@ public RequestParams params;
         db =dbhelper.getWritableDatabase();
 
         TransList = (FrameLayout)findViewById(R.id.content4);
+        changeModeText = (TextView) findViewById(R.id.changeModeText);
+
         changeMode = (Spinner) findViewById(R.id.changeMode);
         changeMode.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -95,6 +98,7 @@ public RequestParams params;
                                        int position, long id) {
 
                 ModeIndicator = parent.getItemAtPosition(position).toString();
+                changeModeText.setText(ModeIndicator);
 
             }
 
@@ -133,7 +137,10 @@ public RequestParams params;
         adapter = new customAdapter(main, mContext);
 
         list.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+
         list.setOnItemClickListener(listItemClickListener);
+
 
 
     }
@@ -147,17 +154,30 @@ public RequestParams params;
 
 
             Transaction_objects i = (Transaction_objects) parent.getItemAtPosition(position);
+            SharedPreferences pref5 = getApplication().getSharedPreferences("Ename", MODE_PRIVATE);
+            SharedPreferences.Editor editor5 = pref5.edit();
+            editor5.putString("Ename", i.Ename);  // Saving string
+            editor5.apply();
+
+            SharedPreferences pref = getApplication().getSharedPreferences("numberOfRows", Context.MODE_PRIVATE);
+            numberOfRows =  pref.getString("numberOfRows", "DEFAULT");
+
+            SharedPreferences pref1 = getApplication().getSharedPreferences("numberOfRowsBarCode", Context.MODE_PRIVATE);
+            numberOfRowsBarCode =  pref1.getString("numberOfRowsBarCode", "DEFAULT");
+
+
 
 
             db.beginTransaction();
             try {
                  headerrow = new headerRow();
-
+                 headerrow.SPName = i.SPName;
+                SharedPreferences pref6 = getApplication().getSharedPreferences("SPName", MODE_PRIVATE);
+                SharedPreferences.Editor editor6 = pref5.edit();
+                editor6.putString("SPName", headerrow.SPName);  // Saving string
+                editor6.apply();
                 headerrow.tblRFIDTransType = i.Iserial;
-                SharedPreferences pref1 = getApplication().getSharedPreferences("UserId", Context.MODE_PRIVATE);
-                headerrow.tblUser = pref1.getInt("UserId", 1);
-                SharedPreferences pref = getApplication().getSharedPreferences("StoreId", Context.MODE_PRIVATE);
-                headerrow.tblStore = pref.getInt("StoreId", 1);
+
 
                 headerrow.RFID_CreationDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SS",
                         Locale.getDefault()).format(System.currentTimeMillis());
@@ -188,7 +208,6 @@ public RequestParams params;
 
             if (c != null && c.getCount() > 0) {
                 while (c.moveToNext()) {
-                    data.add(new transaction_listView.headerRow(c.getInt(c.getColumnIndex("tblRFIDTransType")), (c.getInt(c.getColumnIndex("tblUser"))), (c.getInt(c.getColumnIndex("tblStore"))), (c.getString(c.getColumnIndex("RFID_CreationDate"))), barcode));
                      params = new RequestParams();
                     params.put("tblRFIDTransType", String.valueOf(c.getInt(c.getColumnIndex("tblRFIDTransType"))));
                     params.put("tblUser",String.valueOf(c.getInt(c.getColumnIndex("tblUser"))));
@@ -204,6 +223,7 @@ public RequestParams params;
 
 
                     client.post("http://41.65.223.218:8888/api/RFIDTransHeader", params, new AsyncHttpResponseHandler() {
+
                 @Override
                 public void onSuccess(String NewIserial) {
                     if (!NewIserial.equals(0)){
@@ -220,7 +240,7 @@ public RequestParams params;
 
 
 
-            if (ModeIndicator.equals("DEFAULT")){
+            if (ModeIndicator.equals("RFID(DEFAULT)")){
                 barcode = false;
                 FragmentManager manager = getFragmentManager();
                 FragmentTransaction transaction = manager.beginTransaction();
@@ -256,6 +276,7 @@ public RequestParams params;
                 add.Code = obj.getString("Code");
                 add.Aname = obj.getString("Aname");
                 add.Ename =obj.getString("Ename");
+
                 add.SPName = obj.getString("SPName");
                 transElements.add(add);
                 Log.d(TAG, "get_data: " + transElements);
@@ -278,13 +299,15 @@ public RequestParams params;
         private  int tblStore;
         private String RFID_CreationDate;
         private boolean barcode;
+        private String SPName;
 
-        public headerRow(int tblRFIDTransType, int tblUser, int tblStore, String RFID_CreationDate, Boolean barcode) {
+        public headerRow(int tblRFIDTransType, int tblUser, int tblStore, String RFID_CreationDate, Boolean barcode,String SPName ) {
             this.tblRFIDTransType = tblRFIDTransType;
             this.tblUser = tblUser;
             this.tblStore = tblStore;
             this.RFID_CreationDate = RFID_CreationDate;
             this.barcode = barcode;
+            this.SPName=SPName;
         }
 
         public headerRow() {
@@ -383,6 +406,8 @@ public RequestParams params;
         // TODO Auto-generated method stub
         if (D) Log.d(TAG, "onResume");
          transElements = new ArrayList<>();
+
+
         super.onResume();
     }
 
@@ -391,6 +416,7 @@ public RequestParams params;
         // TODO Auto-generated method stub
         if (D) Log.d(TAG, "onPause");
          transElements = new ArrayList<>();
+        adapter.notifyDataSetChanged();
         super.onPause();
     }
 

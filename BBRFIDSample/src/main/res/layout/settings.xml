@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" >
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout2">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/R1"
+            >
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,34 +33,54 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="109dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="86dp"
         android:text="URL"
         android:textSize="25dp" />
 
     <EditText
+        android:id="@+id/edt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="160dp"
-        android:id="@+id/edt1"/>
+        android:layout_marginTop="120dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="165dp"
         android:text="PORT"
         android:textSize="25dp" />
 
     <EditText
+        android:id="@+id/edt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="300dp"
-        android:id="@+id/edt2"/>
+        android:layout_marginTop="210dp" />
+
+    <Button
+        android:id="@+id/btn_setupZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="73dp"
+        android:text="Setup Zone"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="200dp"
+        android:text="Item"
+        android:textAllCaps="false"
+       />
 
 
     <Button
@@ -63,5 +92,7 @@
         android:layout_marginStart="134dp"
         android:layout_marginTop="362dp"
         android:text="Save" />
+        </RelativeLayout>
+    </FrameLayout>
 
-</RelativeLayout></ScrollView>
+</ScrollView>

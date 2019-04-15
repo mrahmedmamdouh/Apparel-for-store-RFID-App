@@ -28,8 +28,9 @@
 
         <activity android:name=".transaction_listView"
             android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:launchMode="singleTask">
+            >
         </activity>
         <activity
             android:name=".SettingLoginScreen"
@@ -38,6 +39,21 @@
             android:screenOrientation="portrait"></activity>
 
 
+        <activity
+            android:name=".BarcodeFiles.MainMenu"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".BarcodeFiles.SelectStoreForm"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".BarcodeFiles.CZone"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".cycleCount"
             android:configChanges="orientation|screenSize"

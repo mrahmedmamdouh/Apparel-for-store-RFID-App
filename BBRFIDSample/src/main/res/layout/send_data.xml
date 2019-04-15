@@ -10,11 +10,38 @@
     <Button
         android:id="@+id/senddata"
         android:layout_width="match_parent"
-        android:layout_height="101dp"
+        android:layout_height="50dp"
         android:text="Send Data For Store Items" />
     <Button
         android:id="@+id/senddatabr"
         android:layout_width="match_parent"
-        android:layout_height="101dp"
+        android:layout_height="50dp"
         android:text="Send Data For BackRoom Items" />
+
+    <Button
+        android:id="@+id/senddatarec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Data For Receiving Items to Store" />
+    <Button
+        android:id="@+id/senddatabrrec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Data For Receiving Items to BkR" />
+    <Button
+        android:id="@+id/senddataputaway"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Data For PutAway Items to Store" />
+    <Button
+        android:id="@+id/senddatabrputaway"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Data For PutAway Items to BkR" />
+    <Button
+        android:id="@+id/senddatatrans"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Data For transaction process" />
+
 </LinearLayout>

@@ -86,7 +86,7 @@ public class Login extends Activity implements fetchData.download_complete {
                     RequestParams params1 = new RequestParams(param1);
 
 
-                    client.post("http://41.65.223.218:8888/token", params1, new AsyncHttpResponseHandler() {
+                    client.post("http://41.65.223.218:8889/API", params1, new AsyncHttpResponseHandler() {
                         @Override
                         public void onSuccess(String data) {
 
@@ -147,12 +147,12 @@ public class Login extends Activity implements fetchData.download_complete {
                                 UserId = object.getInt("UserId");
                                 SharedPreferences pref = getApplication().getSharedPreferences("UserId", MODE_PRIVATE);
                                 SharedPreferences.Editor editor = pref.edit();
-                                editor.putInt("UserId", UserId);  // Saving string
+                                editor.putInt("UserId", add.UserId);  // Saving string
                                 editor.apply();
                                 StoreId = object.getInt("StoreId");
                                 SharedPreferences pref1 = getApplication().getSharedPreferences("StoreId", MODE_PRIVATE);
                                 SharedPreferences.Editor editor1 = pref1.edit();
-                                editor1.putInt("StoreId", StoreId);  // Saving string
+                                editor1.putInt("StoreId", add.StoreId);  // Saving string
                                 editor1.apply();
                                 Log.d(TAG, "onSuccess: " + UserId + "," + StoreId + "," + add);
                                 Intent intent = new Intent(Login.this, MainActivity.class);

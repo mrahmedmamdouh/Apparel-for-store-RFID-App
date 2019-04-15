@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdx.dev.datacollector.UtilitesShipItemsFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:context="com.wdx.dev.datacollector.UtilitiesShipItems">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_exportShipment"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Export Shipment"/>
+        <Button
+            android:id="@+id/btn_clearShipment"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Clear Shipment"/>
+        <Button
+            android:id="@+id/btn_exportAllClear"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Export All Clear"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:text="Back"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

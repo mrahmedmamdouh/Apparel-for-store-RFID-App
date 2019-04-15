@@ -603,7 +603,6 @@ public String idi;
                                 ret = mReader.RF_PerformInventoryForLocating(iterator.next());
                               int data = 0;
                                 if (mLocateValue == data){
-
                                     iterator.next();
                                 }
 
